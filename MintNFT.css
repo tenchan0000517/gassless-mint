@@ -1,0 +1,23 @@
+button {
+    background-color: #4CAF50; /* 緑色の背景 */
+    border: none; /* 枠線を非表示に */
+    color: white; /* 文字色を白に */
+    padding: 12px 24px; /* 上下に12px、左右に24pxのパディング */
+    text-align: center; /* テキストを中央揃えに */
+    text-decoration: none; /* テキストの下線を非表示に */
+    display: inline-block; /* インラインブロック要素として表示 */
+    font-size: 16px; /* フォントサイズを16pxに */
+    margin: 4px 2px; /* 上下に4px、左右に2pxのマージン */
+    cursor: pointer; /* カーソルをポインターに */
+    border-radius: 12px; /* 角を丸く */
+    transition: background-color 0.3s; /* 背景色の変更を0.3秒でアニメーション */
+}
+
+button:hover {
+    background-color: #45a049; /* ホバー時の背景色を少し濃い緑に */
+}
+
+button:disabled {
+    background-color: #ccc; /* 無効化されたボタンの背景色をグレーに */
+    cursor: not-allowed; /* カーソルを禁止マークに */
+}
